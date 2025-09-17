@@ -12,5 +12,5 @@ else:
             if n%i == 0:
                 print('El número no es primo')
                 break
-            if i == n-1: # Si no, es divisible
+            if i == n-1: # Sino, es primo ya que no es divisible por ningún número y el for pasó por todo el rango de valores
                 print('El número es primo')
