@@ -10,6 +10,6 @@ else:
         if n == 0: # si n es igual a 0, entonces 0! = 1
             factorial = 1
         else:
-            for i in range(1,n+1): # Multiplica el valor dado de manera sucesiva 1*(n)*(n-1)*...*(1) para calcular el factorial
+            for i in range(1,n+1): # Multiplica el valor dado de manera sucesiva (n)*(n-1)*...*(1) para calcular el factorial
                 factorial *= (n-i+1) 
         print(f'{n}! = {factorial}') # Imprimir resultado final
