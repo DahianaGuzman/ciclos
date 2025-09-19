@@ -6,7 +6,7 @@ else:
     if n<=0:
         print('ERROR: Ingrese un número mayor a 0')
     else:
-        # se definen los primeros 2 términos
+        # se definen los primeros 2 términos 
         a_0 = 0
         a_1 = 1
         if n == 1: # Si la cantidad de términos es igual a 1
